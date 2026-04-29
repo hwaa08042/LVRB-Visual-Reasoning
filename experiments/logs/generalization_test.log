@@ -1,0 +1,34 @@
+2026-04-28 16:55:08 | ERROR | 模型加载失败: [load_weights] Weight file not found: experiments/weights/cnn_baseline.pth
+2026-04-28 16:55:08 | ERROR | 解决建议: 1) 确认权重路径正确；2) 确认文件非空且包含 state_dict；3) 确认模型结构与训练时一致；4) 先运行 train_cnn.py 生成权重。
+2026-04-28 16:55:15 | INFO | Model loaded successfully from experiments/weights/cnn_baseline_best.pth
+2026-04-28 16:55:15 | WARNING | 未见过规则样本为 0，已自动调整：从测试集中选择最少样本规则 'raven' 作为 OOD 代理未见规则。
+2026-04-28 16:55:15 | INFO | Subset sizes | seen_test=0 unseen_test=20 total_test=20
+2026-04-28 16:55:15 | WARNING | Seen subset empty, seen accuracy defaulted to 0.0
+2026-04-28 16:55:18 | INFO | Generalization report saved to experiments/results/generalization_report.txt
+2026-04-28 16:55:19 | INFO | Generalization plot saved to experiments/results/generalization_plot.png
+2026-04-28 16:55:19 | INFO | Seen accuracy:   0.0000%
+2026-04-28 16:55:19 | INFO | Unseen accuracy: 5.0000%
+2026-04-28 16:55:19 | INFO | Accuracy drop (Seen - Unseen): -5.0000%
+2026-04-28 17:54:29 | INFO | Model loaded successfully from experiments/weights/cnn_contrastive.pth
+2026-04-28 17:54:29 | WARNING | 未见过规则样本为 0，已自动调整：从测试集中选择最少样本规则 'raven' 作为 OOD 代理未见规则。
+2026-04-28 17:54:29 | INFO | Subset sizes | seen_test=0 unseen_test=20 total_test=20
+2026-04-28 17:54:29 | WARNING | Seen subset empty, seen accuracy defaulted to 0.0
+2026-04-28 17:54:34 | INFO | Generalization report saved to experiments/results/generalization_report.txt
+2026-04-28 17:54:34 | INFO | Generalization plot saved to experiments/results/generalization_plot.png
+2026-04-28 17:54:34 | INFO | Seen accuracy:   0.0000%
+2026-04-28 17:54:34 | INFO | Unseen accuracy: 10.0000%
+2026-04-28 17:54:34 | INFO | Accuracy drop (Seen - Unseen): -10.0000%
+2026-04-28 19:40:15 | INFO | Model loaded successfully from experiments/weights/cnn_baseline_strict.pth
+2026-04-28 19:40:15 | INFO | Strict subset sizes | id=51 ood=49 total=100
+2026-04-28 19:40:40 | INFO | Generalization report saved to experiments/results/generalization_report.txt
+2026-04-28 19:40:40 | INFO | Generalization plot saved to experiments/results/generalization_plot.png
+2026-04-28 19:40:40 | INFO | ID accuracy:   23.5294%
+2026-04-28 19:40:40 | INFO | OOD accuracy: 10.2041%
+2026-04-28 19:40:40 | INFO | Absolute drop (ID - OOD): 13.3253%
+2026-04-28 19:41:14 | INFO | Model loaded successfully from experiments/weights/cnn_contrastive_strict.pth
+2026-04-28 19:41:14 | INFO | Strict subset sizes | id=51 ood=49 total=100
+2026-04-28 19:41:38 | INFO | Generalization report saved to experiments/results/generalization_report.txt
+2026-04-28 19:41:39 | INFO | Generalization plot saved to experiments/results/generalization_plot.png
+2026-04-28 19:41:39 | INFO | ID accuracy:   23.5294%
+2026-04-28 19:41:39 | INFO | OOD accuracy: 12.2449%
+2026-04-28 19:41:39 | INFO | Absolute drop (ID - OOD): 11.2845%

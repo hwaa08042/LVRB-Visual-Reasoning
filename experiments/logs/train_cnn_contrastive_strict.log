@@ -1,0 +1,483 @@
+2026-04-28 17:01:08 | INFO | Using device: cpu
+2026-04-28 17:01:09 | INFO | ========== Epoch 1/50 ==========
+2026-04-28 17:01:26 | INFO | step=100001 | loss=2.319444
+2026-04-28 17:01:58 | INFO | step=100002 | loss=2.319460
+2026-04-28 17:02:18 | INFO | step=100003 | loss=2.319432
+2026-04-28 17:02:21 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:02:22 | INFO | Epoch 1 result | train_loss=2.319450 train_acc=0.1286 val_loss=2.079436 val_acc=0.1000
+2026-04-28 17:02:22 | INFO | Weights saved to experiments/weights/cnn_contrastive.pth
+2026-04-28 17:02:22 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_001.pth
+2026-04-28 17:02:22 | INFO | ========== Epoch 2/50 ==========
+2026-04-28 17:02:37 | INFO | step=200001 | loss=2.319431
+2026-04-28 17:03:09 | INFO | step=200002 | loss=2.319426
+2026-04-28 17:03:30 | INFO | step=200003 | loss=2.319447
+2026-04-28 17:03:32 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:03:34 | INFO | Epoch 2 result | train_loss=2.319430 train_acc=0.1714 val_loss=2.079431 val_acc=0.0000
+2026-04-28 17:03:34 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_002.pth
+2026-04-28 17:03:34 | INFO | ========== Epoch 3/50 ==========
+2026-04-28 17:03:48 | INFO | step=300001 | loss=2.319427
+2026-04-28 17:04:19 | INFO | step=300002 | loss=2.319402
+2026-04-28 17:04:40 | INFO | step=300003 | loss=2.319442
+2026-04-28 17:04:43 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:04:44 | INFO | Epoch 3 result | train_loss=2.319417 train_acc=0.1714 val_loss=2.079429 val_acc=0.1000
+2026-04-28 17:04:44 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_003.pth
+2026-04-28 17:04:44 | INFO | ========== Epoch 4/50 ==========
+2026-04-28 17:04:58 | INFO | step=400001 | loss=2.319431
+2026-04-28 17:05:30 | INFO | step=400002 | loss=2.319389
+2026-04-28 17:05:50 | INFO | step=400003 | loss=2.319363
+2026-04-28 17:05:52 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:05:54 | INFO | Epoch 4 result | train_loss=2.319406 train_acc=0.2143 val_loss=2.079444 val_acc=0.0000
+2026-04-28 17:05:54 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_004.pth
+2026-04-28 17:05:54 | INFO | ========== Epoch 5/50 ==========
+2026-04-28 17:06:08 | INFO | step=500001 | loss=2.319377
+2026-04-28 17:06:40 | INFO | step=500002 | loss=2.319373
+2026-04-28 17:07:00 | INFO | step=500003 | loss=2.319697
+2026-04-28 17:07:03 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:07:04 | INFO | Epoch 5 result | train_loss=2.319403 train_acc=0.1429 val_loss=2.079471 val_acc=0.2000
+2026-04-28 17:07:04 | INFO | Weights saved to experiments/weights/cnn_contrastive.pth
+2026-04-28 17:07:04 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_005.pth
+2026-04-28 17:07:04 | INFO | ========== Epoch 6/50 ==========
+2026-04-28 17:07:19 | INFO | step=600001 | loss=2.319375
+2026-04-28 17:07:50 | INFO | step=600002 | loss=2.319355
+2026-04-28 17:08:08 | INFO | step=600003 | loss=2.319378
+2026-04-28 17:08:10 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:08:11 | INFO | Epoch 6 result | train_loss=2.319366 train_acc=0.1714 val_loss=2.079478 val_acc=0.1000
+2026-04-28 17:08:11 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_006.pth
+2026-04-28 17:08:11 | INFO | ========== Epoch 7/50 ==========
+2026-04-28 17:08:24 | INFO | step=700001 | loss=2.319345
+2026-04-28 17:08:53 | INFO | step=700002 | loss=2.319342
+2026-04-28 17:09:11 | INFO | step=700003 | loss=2.319322
+2026-04-28 17:09:13 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:09:14 | INFO | Epoch 7 result | train_loss=2.319342 train_acc=0.1857 val_loss=2.079498 val_acc=0.1000
+2026-04-28 17:09:14 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00070000（当前模型无 dropout）。
+2026-04-28 17:09:14 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_007.pth
+2026-04-28 17:09:14 | INFO | ========== Epoch 8/50 ==========
+2026-04-28 17:09:27 | INFO | step=800001 | loss=2.319401
+2026-04-28 17:09:55 | INFO | step=800002 | loss=2.319232
+2026-04-28 17:10:13 | INFO | step=800003 | loss=2.318933
+2026-04-28 17:10:15 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:10:17 | INFO | Epoch 8 result | train_loss=2.319284 train_acc=0.1857 val_loss=2.079525 val_acc=0.1000
+2026-04-28 17:10:17 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00049000（当前模型无 dropout）。
+2026-04-28 17:10:17 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_008.pth
+2026-04-28 17:10:17 | INFO | ========== Epoch 9/50 ==========
+2026-04-28 17:10:29 | INFO | step=900001 | loss=2.319315
+2026-04-28 17:10:58 | INFO | step=900002 | loss=2.319220
+2026-04-28 17:11:16 | INFO | step=900003 | loss=2.319134
+2026-04-28 17:11:18 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:11:19 | INFO | Epoch 9 result | train_loss=2.319256 train_acc=0.2000 val_loss=2.079546 val_acc=0.1000
+2026-04-28 17:11:19 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00034300（当前模型无 dropout）。
+2026-04-28 17:11:19 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_009.pth
+2026-04-28 17:11:19 | INFO | ========== Epoch 10/50 ==========
+2026-04-28 17:11:32 | INFO | step=1000001 | loss=2.319431
+2026-04-28 17:12:00 | INFO | step=1000002 | loss=2.319048
+2026-04-28 17:12:19 | INFO | step=1000003 | loss=2.319053
+2026-04-28 17:12:21 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:12:22 | INFO | Epoch 10 result | train_loss=2.319224 train_acc=0.2000 val_loss=2.079545 val_acc=0.1000
+2026-04-28 17:12:22 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_010.pth
+2026-04-28 17:12:22 | INFO | ========== Epoch 11/50 ==========
+2026-04-28 17:12:35 | INFO | step=1100001 | loss=2.319232
+2026-04-28 17:13:03 | INFO | step=1100002 | loss=2.319180
+2026-04-28 17:13:21 | INFO | step=1100003 | loss=2.318925
+2026-04-28 17:13:24 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:13:25 | INFO | Epoch 11 result | train_loss=2.319182 train_acc=0.1857 val_loss=2.079547 val_acc=0.1000
+2026-04-28 17:13:25 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_011.pth
+2026-04-28 17:13:25 | INFO | ========== Epoch 12/50 ==========
+2026-04-28 17:13:37 | INFO | step=1200001 | loss=2.318972
+2026-04-28 17:14:06 | INFO | step=1200002 | loss=2.319280
+2026-04-28 17:14:24 | INFO | step=1200003 | loss=2.319372
+2026-04-28 17:14:26 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:14:27 | INFO | Epoch 12 result | train_loss=2.319147 train_acc=0.1714 val_loss=2.079587 val_acc=0.1000
+2026-04-28 17:14:27 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00024010（当前模型无 dropout）。
+2026-04-28 17:14:27 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_012.pth
+2026-04-28 17:14:27 | INFO | ========== Epoch 13/50 ==========
+2026-04-28 17:14:40 | INFO | step=1300001 | loss=2.319002
+2026-04-28 17:15:08 | INFO | step=1300002 | loss=2.319257
+2026-04-28 17:15:26 | INFO | step=1300003 | loss=2.318708
+2026-04-28 17:15:28 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:15:30 | INFO | Epoch 13 result | train_loss=2.319093 train_acc=0.2000 val_loss=2.079618 val_acc=0.1000
+2026-04-28 17:15:30 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00016807（当前模型无 dropout）。
+2026-04-28 17:15:30 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_013.pth
+2026-04-28 17:15:30 | INFO | ========== Epoch 14/50 ==========
+2026-04-28 17:15:42 | INFO | step=1400001 | loss=2.319122
+2026-04-28 17:16:10 | INFO | step=1400002 | loss=2.318860
+2026-04-28 17:16:29 | INFO | step=1400003 | loss=2.319645
+2026-04-28 17:16:32 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:16:33 | INFO | Epoch 14 result | train_loss=2.319047 train_acc=0.2143 val_loss=2.079638 val_acc=0.1000
+2026-04-28 17:16:33 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00011765（当前模型无 dropout）。
+2026-04-28 17:16:33 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_014.pth
+2026-04-28 17:16:33 | INFO | ========== Epoch 15/50 ==========
+2026-04-28 17:16:45 | INFO | step=1500001 | loss=2.319262
+2026-04-28 17:17:14 | INFO | step=1500002 | loss=2.318704
+2026-04-28 17:17:33 | INFO | step=1500003 | loss=2.319224
+2026-04-28 17:17:35 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:17:37 | INFO | Epoch 15 result | train_loss=2.319004 train_acc=0.2143 val_loss=2.079644 val_acc=0.1000
+2026-04-28 17:17:37 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00008235（当前模型无 dropout）。
+2026-04-28 17:17:37 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_015.pth
+2026-04-28 17:17:37 | INFO | ========== Epoch 16/50 ==========
+2026-04-28 17:17:49 | INFO | step=1600001 | loss=2.319006
+2026-04-28 17:18:17 | INFO | step=1600002 | loss=2.318953
+2026-04-28 17:18:35 | INFO | step=1600003 | loss=2.318964
+2026-04-28 17:18:38 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:18:39 | INFO | Epoch 16 result | train_loss=2.318978 train_acc=0.2143 val_loss=2.079647 val_acc=0.1000
+2026-04-28 17:18:39 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00005765（当前模型无 dropout）。
+2026-04-28 17:18:39 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_016.pth
+2026-04-28 17:18:39 | INFO | ========== Epoch 17/50 ==========
+2026-04-28 17:18:51 | INFO | step=1700001 | loss=2.319083
+2026-04-28 17:19:20 | INFO | step=1700002 | loss=2.318902
+2026-04-28 17:19:38 | INFO | step=1700003 | loss=2.318537
+2026-04-28 17:19:40 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:19:41 | INFO | Epoch 17 result | train_loss=2.318954 train_acc=0.2143 val_loss=2.079651 val_acc=0.1000
+2026-04-28 17:19:41 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00004035（当前模型无 dropout）。
+2026-04-28 17:19:41 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_017.pth
+2026-04-28 17:19:41 | INFO | ========== Epoch 18/50 ==========
+2026-04-28 17:19:54 | INFO | step=1800001 | loss=2.318978
+2026-04-28 17:20:22 | INFO | step=1800002 | loss=2.318980
+2026-04-28 17:20:40 | INFO | step=1800003 | loss=2.318502
+2026-04-28 17:20:43 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:20:44 | INFO | Epoch 18 result | train_loss=2.318938 train_acc=0.2143 val_loss=2.079653 val_acc=0.1000
+2026-04-28 17:20:44 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00002825（当前模型无 dropout）。
+2026-04-28 17:20:44 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_018.pth
+2026-04-28 17:20:44 | INFO | ========== Epoch 19/50 ==========
+2026-04-28 17:20:57 | INFO | step=1900001 | loss=2.318834
+2026-04-28 17:21:26 | INFO | step=1900002 | loss=2.318990
+2026-04-28 17:21:44 | INFO | step=1900003 | loss=2.319067
+2026-04-28 17:21:46 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:21:48 | INFO | Epoch 19 result | train_loss=2.318926 train_acc=0.2143 val_loss=2.079654 val_acc=0.1000
+2026-04-28 17:21:48 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00001977（当前模型无 dropout）。
+2026-04-28 17:21:48 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_019.pth
+2026-04-28 17:21:48 | INFO | ========== Epoch 20/50 ==========
+2026-04-28 17:22:00 | INFO | step=2000001 | loss=2.319100
+2026-04-28 17:22:28 | INFO | step=2000002 | loss=2.318834
+2026-04-28 17:22:46 | INFO | step=2000003 | loss=2.318377
+2026-04-28 17:22:49 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:22:50 | INFO | Epoch 20 result | train_loss=2.318916 train_acc=0.2143 val_loss=2.079655 val_acc=0.1000
+2026-04-28 17:22:50 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00001384（当前模型无 dropout）。
+2026-04-28 17:22:50 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_020.pth
+2026-04-28 17:22:50 | INFO | ========== Epoch 21/50 ==========
+2026-04-28 17:23:02 | INFO | step=2100001 | loss=2.318980
+2026-04-28 17:23:30 | INFO | step=2100002 | loss=2.318905
+2026-04-28 17:23:48 | INFO | step=2100003 | loss=2.318569
+2026-04-28 17:23:51 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:23:52 | INFO | Epoch 21 result | train_loss=2.318910 train_acc=0.2143 val_loss=2.079658 val_acc=0.1000
+2026-04-28 17:23:52 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000969（当前模型无 dropout）。
+2026-04-28 17:23:52 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_021.pth
+2026-04-28 17:23:52 | INFO | ========== Epoch 22/50 ==========
+2026-04-28 17:24:04 | INFO | step=2200001 | loss=2.318527
+2026-04-28 17:24:33 | INFO | step=2200002 | loss=2.319129
+2026-04-28 17:24:51 | INFO | step=2200003 | loss=2.319753
+2026-04-28 17:24:53 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:24:55 | INFO | Epoch 22 result | train_loss=2.318907 train_acc=0.2143 val_loss=2.079659 val_acc=0.1000
+2026-04-28 17:24:55 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000678（当前模型无 dropout）。
+2026-04-28 17:24:55 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_022.pth
+2026-04-28 17:24:55 | INFO | ========== Epoch 23/50 ==========
+2026-04-28 17:25:07 | INFO | step=2300001 | loss=2.318967
+2026-04-28 17:25:36 | INFO | step=2300002 | loss=2.318831
+2026-04-28 17:25:54 | INFO | step=2300003 | loss=2.318953
+2026-04-28 17:25:56 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:25:57 | INFO | Epoch 23 result | train_loss=2.318904 train_acc=0.2143 val_loss=2.079659 val_acc=0.1000
+2026-04-28 17:25:57 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000475（当前模型无 dropout）。
+2026-04-28 17:25:57 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_023.pth
+2026-04-28 17:25:57 | INFO | ========== Epoch 24/50 ==========
+2026-04-28 17:26:09 | INFO | step=2400001 | loss=2.318899
+2026-04-28 17:26:38 | INFO | step=2400002 | loss=2.318949
+2026-04-28 17:26:57 | INFO | step=2400003 | loss=2.318659
+2026-04-28 17:26:59 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:27:00 | INFO | Epoch 24 result | train_loss=2.318901 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:27:00 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000332（当前模型无 dropout）。
+2026-04-28 17:27:00 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_024.pth
+2026-04-28 17:27:00 | INFO | ========== Epoch 25/50 ==========
+2026-04-28 17:27:12 | INFO | step=2500001 | loss=2.318803
+2026-04-28 17:27:41 | INFO | step=2500002 | loss=2.319039
+2026-04-28 17:27:59 | INFO | step=2500003 | loss=2.318680
+2026-04-28 17:28:01 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:28:02 | INFO | Epoch 25 result | train_loss=2.318900 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:28:02 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000233（当前模型无 dropout）。
+2026-04-28 17:28:02 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_025.pth
+2026-04-28 17:28:02 | INFO | ========== Epoch 26/50 ==========
+2026-04-28 17:28:15 | INFO | step=2600001 | loss=2.319041
+2026-04-28 17:28:43 | INFO | step=2600002 | loss=2.318613
+2026-04-28 17:29:01 | INFO | step=2600003 | loss=2.319672
+2026-04-28 17:29:03 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:29:05 | INFO | Epoch 26 result | train_loss=2.318899 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:29:05 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000163（当前模型无 dropout）。
+2026-04-28 17:29:05 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_026.pth
+2026-04-28 17:29:05 | INFO | ========== Epoch 27/50 ==========
+2026-04-28 17:29:17 | INFO | step=2700001 | loss=2.318389
+2026-04-28 17:29:45 | INFO | step=2700002 | loss=2.319358
+2026-04-28 17:30:03 | INFO | step=2700003 | loss=2.319162
+2026-04-28 17:30:05 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:30:07 | INFO | Epoch 27 result | train_loss=2.318898 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:30:07 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000114（当前模型无 dropout）。
+2026-04-28 17:30:07 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_027.pth
+2026-04-28 17:30:07 | INFO | ========== Epoch 28/50 ==========
+2026-04-28 17:30:19 | INFO | step=2800001 | loss=2.318737
+2026-04-28 17:30:47 | INFO | step=2800002 | loss=2.318968
+2026-04-28 17:31:06 | INFO | step=2800003 | loss=2.319383
+2026-04-28 17:31:08 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:31:09 | INFO | Epoch 28 result | train_loss=2.318898 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:31:09 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:31:09 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_028.pth
+2026-04-28 17:31:09 | INFO | ========== Epoch 29/50 ==========
+2026-04-28 17:31:22 | INFO | step=2900001 | loss=2.318761
+2026-04-28 17:31:50 | INFO | step=2900002 | loss=2.319056
+2026-04-28 17:32:08 | INFO | step=2900003 | loss=2.318786
+2026-04-28 17:32:10 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:32:11 | INFO | Epoch 29 result | train_loss=2.318898 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:32:11 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:32:11 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_029.pth
+2026-04-28 17:32:11 | INFO | ========== Epoch 30/50 ==========
+2026-04-28 17:32:23 | INFO | step=3000001 | loss=2.318729
+2026-04-28 17:32:53 | INFO | step=3000002 | loss=2.319060
+2026-04-28 17:33:11 | INFO | step=3000003 | loss=2.318925
+2026-04-28 17:33:13 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:33:14 | INFO | Epoch 30 result | train_loss=2.318897 train_acc=0.2143 val_loss=2.079660 val_acc=0.1000
+2026-04-28 17:33:14 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:33:14 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_030.pth
+2026-04-28 17:33:14 | INFO | ========== Epoch 31/50 ==========
+2026-04-28 17:33:27 | INFO | step=3100001 | loss=2.318852
+2026-04-28 17:33:56 | INFO | step=3100002 | loss=2.318900
+2026-04-28 17:34:14 | INFO | step=3100003 | loss=2.319121
+2026-04-28 17:34:16 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:34:18 | INFO | Epoch 31 result | train_loss=2.318897 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:34:18 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:34:18 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_031.pth
+2026-04-28 17:34:18 | INFO | ========== Epoch 32/50 ==========
+2026-04-28 17:34:30 | INFO | step=3200001 | loss=2.318939
+2026-04-28 17:34:59 | INFO | step=3200002 | loss=2.319110
+2026-04-28 17:35:17 | INFO | step=3200003 | loss=2.317533
+2026-04-28 17:35:19 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:35:20 | INFO | Epoch 32 result | train_loss=2.318897 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:35:20 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:35:20 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_032.pth
+2026-04-28 17:35:20 | INFO | ========== Epoch 33/50 ==========
+2026-04-28 17:35:33 | INFO | step=3300001 | loss=2.319061
+2026-04-28 17:36:01 | INFO | step=3300002 | loss=2.318896
+2026-04-28 17:36:19 | INFO | step=3300003 | loss=2.318021
+2026-04-28 17:36:21 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:36:23 | INFO | Epoch 33 result | train_loss=2.318896 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:36:23 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:36:23 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_033.pth
+2026-04-28 17:36:23 | INFO | ========== Epoch 34/50 ==========
+2026-04-28 17:36:35 | INFO | step=3400001 | loss=2.318819
+2026-04-28 17:37:04 | INFO | step=3400002 | loss=2.319153
+2026-04-28 17:37:22 | INFO | step=3400003 | loss=2.317941
+2026-04-28 17:37:24 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:37:26 | INFO | Epoch 34 result | train_loss=2.318896 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:37:26 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_034.pth
+2026-04-28 17:37:26 | INFO | ========== Epoch 35/50 ==========
+2026-04-28 17:37:39 | INFO | step=3500001 | loss=2.318701
+2026-04-28 17:38:07 | INFO | step=3500002 | loss=2.318981
+2026-04-28 17:38:25 | INFO | step=3500003 | loss=2.319479
+2026-04-28 17:38:28 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:38:29 | INFO | Epoch 35 result | train_loss=2.318896 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:38:29 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_035.pth
+2026-04-28 17:38:29 | INFO | ========== Epoch 36/50 ==========
+2026-04-28 17:38:42 | INFO | step=3600001 | loss=2.318869
+2026-04-28 17:39:10 | INFO | step=3600002 | loss=2.318867
+2026-04-28 17:39:28 | INFO | step=3600003 | loss=2.319187
+2026-04-28 17:39:30 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:39:32 | INFO | Epoch 36 result | train_loss=2.318895 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:39:32 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_036.pth
+2026-04-28 17:39:32 | INFO | ========== Epoch 37/50 ==========
+2026-04-28 17:39:45 | INFO | step=3700001 | loss=2.318956
+2026-04-28 17:40:13 | INFO | step=3700002 | loss=2.318908
+2026-04-28 17:40:31 | INFO | step=3700003 | loss=2.318501
+2026-04-28 17:40:33 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:40:35 | INFO | Epoch 37 result | train_loss=2.318895 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:40:35 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_037.pth
+2026-04-28 17:40:35 | INFO | ========== Epoch 38/50 ==========
+2026-04-28 17:40:47 | INFO | step=3800001 | loss=2.319017
+2026-04-28 17:41:15 | INFO | step=3800002 | loss=2.318797
+2026-04-28 17:41:33 | INFO | step=3800003 | loss=2.318764
+2026-04-28 17:41:35 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:41:36 | INFO | Epoch 38 result | train_loss=2.318895 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:41:36 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:41:36 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_038.pth
+2026-04-28 17:41:36 | INFO | ========== Epoch 39/50 ==========
+2026-04-28 17:41:49 | INFO | step=3900001 | loss=2.319189
+2026-04-28 17:42:17 | INFO | step=3900002 | loss=2.318774
+2026-04-28 17:42:35 | INFO | step=3900003 | loss=2.317965
+2026-04-28 17:42:37 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:42:38 | INFO | Epoch 39 result | train_loss=2.318894 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:42:38 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:42:38 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_039.pth
+2026-04-28 17:42:38 | INFO | ========== Epoch 40/50 ==========
+2026-04-28 17:42:51 | INFO | step=4000001 | loss=2.318868
+2026-04-28 17:43:20 | INFO | step=4000002 | loss=2.318875
+2026-04-28 17:43:38 | INFO | step=4000003 | loss=2.319134
+2026-04-28 17:43:41 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:43:42 | INFO | Epoch 40 result | train_loss=2.318894 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:43:42 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:43:42 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_040.pth
+2026-04-28 17:43:42 | INFO | ========== Epoch 41/50 ==========
+2026-04-28 17:43:54 | INFO | step=4100001 | loss=2.319053
+2026-04-28 17:44:23 | INFO | step=4100002 | loss=2.318832
+2026-04-28 17:44:41 | INFO | step=4100003 | loss=2.318371
+2026-04-28 17:44:43 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:44:44 | INFO | Epoch 41 result | train_loss=2.318894 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:44:44 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:44:44 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_041.pth
+2026-04-28 17:44:44 | INFO | ========== Epoch 42/50 ==========
+2026-04-28 17:44:56 | INFO | step=4200001 | loss=2.318923
+2026-04-28 17:45:24 | INFO | step=4200002 | loss=2.318983
+2026-04-28 17:45:43 | INFO | step=4200003 | loss=2.318260
+2026-04-28 17:45:45 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:45:46 | INFO | Epoch 42 result | train_loss=2.318894 train_acc=0.2143 val_loss=2.079661 val_acc=0.1000
+2026-04-28 17:45:46 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_042.pth
+2026-04-28 17:45:46 | INFO | ========== Epoch 43/50 ==========
+2026-04-28 17:45:58 | INFO | step=4300001 | loss=2.318913
+2026-04-28 17:46:27 | INFO | step=4300002 | loss=2.319115
+2026-04-28 17:46:45 | INFO | step=4300003 | loss=2.317602
+2026-04-28 17:46:47 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:46:48 | INFO | Epoch 43 result | train_loss=2.318893 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:46:48 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_043.pth
+2026-04-28 17:46:48 | INFO | ========== Epoch 44/50 ==========
+2026-04-28 17:47:01 | INFO | step=4400001 | loss=2.319103
+2026-04-28 17:47:29 | INFO | step=4400002 | loss=2.318598
+2026-04-28 17:47:47 | INFO | step=4400003 | loss=2.319348
+2026-04-28 17:47:50 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:47:51 | INFO | Epoch 44 result | train_loss=2.318893 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:47:51 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:47:51 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_044.pth
+2026-04-28 17:47:51 | INFO | ========== Epoch 45/50 ==========
+2026-04-28 17:48:04 | INFO | step=4500001 | loss=2.318821
+2026-04-28 17:48:32 | INFO | step=4500002 | loss=2.318837
+2026-04-28 17:48:51 | INFO | step=4500003 | loss=2.319568
+2026-04-28 17:48:53 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:48:54 | INFO | Epoch 45 result | train_loss=2.318893 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:48:54 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:48:54 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_045.pth
+2026-04-28 17:48:54 | INFO | ========== Epoch 46/50 ==========
+2026-04-28 17:49:06 | INFO | step=4600001 | loss=2.318643
+2026-04-28 17:49:35 | INFO | step=4600002 | loss=2.319193
+2026-04-28 17:49:52 | INFO | step=4600003 | loss=2.318622
+2026-04-28 17:49:55 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:49:56 | INFO | Epoch 46 result | train_loss=2.318892 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:49:56 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:49:56 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_046.pth
+2026-04-28 17:49:56 | INFO | ========== Epoch 47/50 ==========
+2026-04-28 17:50:08 | INFO | step=4700001 | loss=2.318645
+2026-04-28 17:50:37 | INFO | step=4700002 | loss=2.319172
+2026-04-28 17:50:55 | INFO | step=4700003 | loss=2.318715
+2026-04-28 17:50:57 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:50:58 | INFO | Epoch 47 result | train_loss=2.318892 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:50:58 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:50:58 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_047.pth
+2026-04-28 17:50:58 | INFO | ========== Epoch 48/50 ==========
+2026-04-28 17:51:11 | INFO | step=4800001 | loss=2.319111
+2026-04-28 17:51:40 | INFO | step=4800002 | loss=2.318759
+2026-04-28 17:51:57 | INFO | step=4800003 | loss=2.318426
+2026-04-28 17:51:59 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:52:01 | INFO | Epoch 48 result | train_loss=2.318892 train_acc=0.2143 val_loss=2.079663 val_acc=0.1000
+2026-04-28 17:52:01 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 17:52:01 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_048.pth
+2026-04-28 17:52:01 | INFO | ========== Epoch 49/50 ==========
+2026-04-28 17:52:13 | INFO | step=4900001 | loss=2.318991
+2026-04-28 17:52:42 | INFO | step=4900002 | loss=2.318808
+2026-04-28 17:52:59 | INFO | step=4900003 | loss=2.318809
+2026-04-28 17:53:02 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:53:03 | INFO | Epoch 49 result | train_loss=2.318891 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:53:03 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_049.pth
+2026-04-28 17:53:03 | INFO | ========== Epoch 50/50 ==========
+2026-04-28 17:53:15 | INFO | step=5000001 | loss=2.318854
+2026-04-28 17:53:43 | INFO | step=5000002 | loss=2.318929
+2026-04-28 17:54:01 | INFO | step=5000003 | loss=2.318890
+2026-04-28 17:54:04 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=67 neg_pairs=67 ratio=1.0000
+2026-04-28 17:54:05 | INFO | Epoch 50 result | train_loss=2.318891 train_acc=0.2143 val_loss=2.079662 val_acc=0.1000
+2026-04-28 17:54:05 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_050.pth
+2026-04-28 17:54:05 | INFO | Weights saved to experiments/weights/cnn_contrastive_last.pth
+2026-04-28 17:54:05 | INFO | Training report saved to experiments/results/train_report.txt
+2026-04-28 17:54:05 | INFO | Training finished in 3175.58 seconds
+2026-04-28 17:54:05 | INFO | Weights loaded from experiments/weights/cnn_contrastive.pth | strict=True
+2026-04-28 17:54:05 | INFO | Checkpoint verification passed: experiments/weights/cnn_contrastive.pth
+2026-04-28 17:54:05 | INFO | Weights loaded from experiments/weights/cnn_contrastive_last.pth | strict=True
+2026-04-28 17:54:05 | INFO | Checkpoint verification passed: experiments/weights/cnn_contrastive_last.pth
+2026-04-28 19:26:44 | WARNING | Invalid contrastive_weight=0.0. Fallback to default=0.300000.
+2026-04-28 19:26:44 | INFO | Using device: cpu
+2026-04-28 19:26:45 | INFO | ========== Epoch 1/12 ==========
+2026-04-28 19:27:00 | INFO | step=100001 | loss=2.319444
+2026-04-28 19:27:20 | INFO | step=100002 | loss=2.319425
+2026-04-28 19:27:21 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=157 neg_pairs=342 ratio=0.4591
+2026-04-28 19:27:22 | INFO | Epoch 1 result | train_loss=2.319443 train_acc=0.2571 val_loss=2.079536 val_acc=0.0000
+2026-04-28 19:27:22 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_001.pth
+2026-04-28 19:27:22 | INFO | ========== Epoch 2/12 ==========
+2026-04-28 19:27:37 | INFO | step=200001 | loss=2.319422
+2026-04-28 19:27:56 | INFO | step=200002 | loss=2.319235
+2026-04-28 19:27:57 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=158 neg_pairs=341 ratio=0.4633
+2026-04-28 19:27:58 | INFO | Epoch 2 result | train_loss=2.319406 train_acc=0.2000 val_loss=2.079711 val_acc=0.2000
+2026-04-28 19:27:58 | INFO | Weights saved to experiments/weights/cnn_contrastive.pth
+2026-04-28 19:27:58 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_002.pth
+2026-04-28 19:27:58 | INFO | ========== Epoch 3/12 ==========
+2026-04-28 19:28:12 | INFO | step=300001 | loss=2.319408
+2026-04-28 19:28:31 | INFO | step=300002 | loss=2.318852
+2026-04-28 19:28:33 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=158 neg_pairs=341 ratio=0.4633
+2026-04-28 19:28:33 | INFO | Epoch 3 result | train_loss=2.319360 train_acc=0.1714 val_loss=2.079971 val_acc=0.2000
+2026-04-28 19:28:33 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_003.pth
+2026-04-28 19:28:33 | INFO | ========== Epoch 4/12 ==========
+2026-04-28 19:28:47 | INFO | step=400001 | loss=2.319346
+2026-04-28 19:29:03 | INFO | step=400002 | loss=2.318910
+2026-04-28 19:29:05 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=157 neg_pairs=343 ratio=0.4577
+2026-04-28 19:29:05 | INFO | Epoch 4 result | train_loss=2.319308 train_acc=0.1714 val_loss=2.080397 val_acc=0.2000
+2026-04-28 19:29:05 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00070000（当前模型无 dropout）。
+2026-04-28 19:29:05 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_004.pth
+2026-04-28 19:29:05 | INFO | ========== Epoch 5/12 ==========
+2026-04-28 19:29:17 | INFO | step=500001 | loss=2.319204
+2026-04-28 19:29:34 | INFO | step=500002 | loss=2.319627
+2026-04-28 19:29:35 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=156 neg_pairs=343 ratio=0.4548
+2026-04-28 19:29:36 | INFO | Epoch 5 result | train_loss=2.319240 train_acc=0.1429 val_loss=2.080759 val_acc=0.0000
+2026-04-28 19:29:36 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00049000（当前模型无 dropout）。
+2026-04-28 19:29:36 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_005.pth
+2026-04-28 19:29:36 | INFO | ========== Epoch 6/12 ==========
+2026-04-28 19:29:48 | INFO | step=600001 | loss=2.319220
+2026-04-28 19:30:05 | INFO | step=600002 | loss=2.318430
+2026-04-28 19:30:06 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=157 neg_pairs=343 ratio=0.4577
+2026-04-28 19:30:07 | INFO | Epoch 6 result | train_loss=2.319152 train_acc=0.1143 val_loss=2.081068 val_acc=0.0000
+2026-04-28 19:30:07 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00034300（当前模型无 dropout）。
+2026-04-28 19:30:07 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_006.pth
+2026-04-28 19:30:07 | INFO | ========== Epoch 7/12 ==========
+2026-04-28 19:30:19 | INFO | step=700001 | loss=2.319107
+2026-04-28 19:30:36 | INFO | step=700002 | loss=2.318817
+2026-04-28 19:30:37 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=156 neg_pairs=343 ratio=0.4548
+2026-04-28 19:30:38 | INFO | Epoch 7 result | train_loss=2.319082 train_acc=0.1429 val_loss=2.081337 val_acc=0.0000
+2026-04-28 19:30:38 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00024010（当前模型无 dropout）。
+2026-04-28 19:30:38 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_007.pth
+2026-04-28 19:30:38 | INFO | ========== Epoch 8/12 ==========
+2026-04-28 19:30:50 | INFO | step=800001 | loss=2.318926
+2026-04-28 19:31:08 | INFO | step=800002 | loss=2.320129
+2026-04-28 19:31:09 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=157 neg_pairs=342 ratio=0.4591
+2026-04-28 19:31:09 | INFO | Epoch 8 result | train_loss=2.319029 train_acc=0.1429 val_loss=2.081511 val_acc=0.0000
+2026-04-28 19:31:09 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00016807（当前模型无 dropout）。
+2026-04-28 19:31:09 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_008.pth
+2026-04-28 19:31:09 | INFO | ========== Epoch 9/12 ==========
+2026-04-28 19:31:22 | INFO | step=900001 | loss=2.319042
+2026-04-28 19:31:39 | INFO | step=900002 | loss=2.318327
+2026-04-28 19:31:40 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=158 neg_pairs=341 ratio=0.4633
+2026-04-28 19:31:41 | INFO | Epoch 9 result | train_loss=2.318981 train_acc=0.1429 val_loss=2.081651 val_acc=0.0000
+2026-04-28 19:31:41 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00011765（当前模型无 dropout）。
+2026-04-28 19:31:41 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_009.pth
+2026-04-28 19:31:41 | INFO | ========== Epoch 10/12 ==========
+2026-04-28 19:31:53 | INFO | step=1000001 | loss=2.318908
+2026-04-28 19:32:10 | INFO | step=1000002 | loss=2.319434
+2026-04-28 19:32:11 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=157 neg_pairs=343 ratio=0.4577
+2026-04-28 19:32:12 | INFO | Epoch 10 result | train_loss=2.318953 train_acc=0.1429 val_loss=2.081722 val_acc=0.2000
+2026-04-28 19:32:12 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_010.pth
+2026-04-28 19:32:12 | INFO | ========== Epoch 11/12 ==========
+2026-04-28 19:32:24 | INFO | step=1100001 | loss=2.319075
+2026-04-28 19:32:41 | INFO | step=1100002 | loss=2.317444
+2026-04-28 19:32:43 | INFO | Contrastive epoch summary | mean=0.799999 pos_pairs=158 neg_pairs=341 ratio=0.4633
+2026-04-28 19:32:43 | INFO | Epoch 11 result | train_loss=2.318935 train_acc=0.1429 val_loss=2.081811 val_acc=0.2000
+2026-04-28 19:32:43 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_011.pth
+2026-04-28 19:32:43 | INFO | ========== Epoch 12/12 ==========
+2026-04-28 19:32:55 | INFO | step=1200001 | loss=2.318720
+2026-04-28 19:33:13 | INFO | step=1200002 | loss=2.321054
+2026-04-28 19:33:14 | INFO | Contrastive epoch summary | mean=0.800000 pos_pairs=157 neg_pairs=343 ratio=0.4577
+2026-04-28 19:33:14 | INFO | Epoch 12 result | train_loss=2.318920 train_acc=0.1429 val_loss=2.081878 val_acc=0.2000
+2026-04-28 19:33:14 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00008235（当前模型无 dropout）。
+2026-04-28 19:33:14 | INFO | Weights saved to experiments/weights/cnn_contrastive_epoch_012.pth
+2026-04-28 19:33:14 | INFO | Weights saved to experiments/weights/cnn_contrastive_last.pth
+2026-04-28 19:33:14 | INFO | Training report saved to experiments/results/train_report.txt
+2026-04-28 19:33:14 | INFO | Training finished in 389.37 seconds
+2026-04-28 19:33:15 | INFO | Weights loaded from experiments/weights/cnn_contrastive.pth | strict=True
+2026-04-28 19:33:15 | INFO | Checkpoint verification passed: experiments/weights/cnn_contrastive.pth
+2026-04-28 19:33:15 | INFO | Weights loaded from experiments/weights/cnn_contrastive_last.pth | strict=True
+2026-04-28 19:33:15 | INFO | Checkpoint verification passed: experiments/weights/cnn_contrastive_last.pth

@@ -1,0 +1,72 @@
+2026-04-28 16:57:41 | WARNING | 推理超时异常: 2888.51ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 16:57:41 | INFO | Clean accuracy: 5.0000%
+2026-04-28 16:57:41 | INFO | 开始测试扰动: gaussian_noise | params={'noise_std': 0.1}
+2026-04-28 16:57:45 | WARNING | 推理超时异常: 3129.48ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 16:57:45 | INFO | gaussian_noise | clean=5.0000% perturbed=5.0000% drop=0.0000%
+2026-04-28 16:57:45 | INFO | 开始测试扰动: color_jitter | params={'jitter_strength': 0.2}
+2026-04-28 16:57:48 | WARNING | 推理超时异常: 3408.07ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 16:57:48 | INFO | color_jitter | clean=5.0000% perturbed=10.0000% drop=0.0000%
+2026-04-28 16:57:48 | INFO | 开始测试扰动: random_shift | params={'shift_ratio': 0.1}
+2026-04-28 16:57:51 | WARNING | 推理超时异常: 3179.89ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 16:57:51 | INFO | random_shift | clean=5.0000% perturbed=10.0000% drop=0.0000%
+2026-04-28 16:57:51 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (color_jitter: 10.0000% > 5.0000%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 16:57:51 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (random_shift: 10.0000% > 5.0000%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 16:57:51 | INFO | 鲁棒性报告已保存: experiments/results/robustness_report.txt
+2026-04-28 16:57:52 | INFO | 鲁棒性对比图已保存: experiments/results/robustness_plot.png
+2026-04-28 16:57:52 | INFO | 鲁棒性影响排名（高->低）: ['gaussian_noise:0.00%', 'color_jitter:0.00%', 'random_shift:0.00%']
+2026-04-28 17:54:34 | WARNING | 推理超时异常: 4622.02ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 17:54:34 | INFO | Clean accuracy: 10.0000%
+2026-04-28 17:54:34 | INFO | 开始测试扰动: gaussian_noise | params={'noise_std': 0.1}
+2026-04-28 17:54:37 | WARNING | 推理超时异常: 3218.04ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 17:54:37 | INFO | gaussian_noise | clean=10.0000% perturbed=10.0000% drop=0.0000%
+2026-04-28 17:54:37 | INFO | 开始测试扰动: color_jitter | params={'jitter_strength': 0.2}
+2026-04-28 17:54:40 | WARNING | 推理超时异常: 2897.09ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 17:54:40 | INFO | color_jitter | clean=10.0000% perturbed=5.0000% drop=5.0000%
+2026-04-28 17:54:40 | INFO | 开始测试扰动: random_shift | params={'shift_ratio': 0.1}
+2026-04-28 17:54:43 | WARNING | 推理超时异常: 2901.49ms > 1500.00ms, sample_paths=['data/raven/sample_015.npz', 'data/raven/sample_028.npz', 'data/raven/sample_067.npz']
+2026-04-28 17:54:43 | INFO | random_shift | clean=10.0000% perturbed=20.0000% drop=0.0000%
+2026-04-28 17:54:43 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (random_shift: 20.0000% > 10.0000%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 17:54:43 | INFO | 鲁棒性报告已保存: experiments/results/robustness_report.txt
+2026-04-28 17:54:44 | INFO | 鲁棒性对比图已保存: experiments/results/robustness_plot.png
+2026-04-28 17:54:44 | INFO | 鲁棒性影响排名（高->低）: ['color_jitter:5.00%', 'gaussian_noise:0.00%', 'random_shift:0.00%']
+2026-04-28 19:40:24 | WARNING | 推理超时异常: 7936.82ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:40:28 | WARNING | 推理超时异常: 3820.74ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:40:28 | INFO | Clean accuracy: 10.2041%
+2026-04-28 19:40:28 | INFO | 开始测试扰动: gaussian_noise | params={'noise_std': 0.1}
+2026-04-28 19:40:36 | WARNING | 推理超时异常: 7877.74ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:40:40 | WARNING | 推理超时异常: 3825.88ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:40:40 | INFO | gaussian_noise | clean=10.2041% perturbed=12.2449% drop=0.0000%
+2026-04-28 19:40:40 | INFO | 开始测试扰动: color_jitter | params={'jitter_strength': 0.2}
+2026-04-28 19:40:46 | WARNING | 推理超时异常: 4908.48ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:40:48 | WARNING | 推理超时异常: 2469.36ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:40:48 | INFO | color_jitter | clean=10.2041% perturbed=14.2857% drop=0.0000%
+2026-04-28 19:40:48 | INFO | 开始测试扰动: random_shift | params={'shift_ratio': 0.1}
+2026-04-28 19:40:53 | WARNING | 推理超时异常: 4522.30ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:40:56 | WARNING | 推理超时异常: 2459.46ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:40:56 | INFO | random_shift | clean=10.2041% perturbed=12.2449% drop=0.0000%
+2026-04-28 19:40:56 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (gaussian_noise: 12.2449% > 10.2041%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 19:40:56 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (color_jitter: 14.2857% > 10.2041%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 19:40:56 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (random_shift: 12.2449% > 10.2041%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 19:40:56 | INFO | 鲁棒性报告已保存: experiments/results/robustness_report.txt
+2026-04-28 19:40:56 | INFO | 鲁棒性对比图已保存: experiments/results/robustness_plot.png
+2026-04-28 19:40:56 | INFO | 鲁棒性影响排名（高->低）: ['gaussian_noise:0.00%', 'color_jitter:0.00%', 'random_shift:0.00%']
+2026-04-28 19:41:22 | WARNING | 推理超时异常: 8046.78ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:41:26 | WARNING | 推理超时异常: 3881.85ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:41:26 | INFO | Clean accuracy: 12.2449%
+2026-04-28 19:41:26 | INFO | 开始测试扰动: gaussian_noise | params={'noise_std': 0.1}
+2026-04-28 19:41:35 | WARNING | 推理超时异常: 7892.41ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:41:39 | WARNING | 推理超时异常: 3621.34ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:41:39 | INFO | gaussian_noise | clean=12.2449% perturbed=14.2857% drop=0.0000%
+2026-04-28 19:41:39 | INFO | 开始测试扰动: color_jitter | params={'jitter_strength': 0.2}
+2026-04-28 19:41:44 | WARNING | 推理超时异常: 4899.68ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:41:47 | WARNING | 推理超时异常: 2491.47ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:41:47 | INFO | color_jitter | clean=12.2449% perturbed=14.2857% drop=0.0000%
+2026-04-28 19:41:47 | INFO | 开始测试扰动: random_shift | params={'shift_ratio': 0.1}
+2026-04-28 19:41:52 | WARNING | 推理超时异常: 4600.35ms > 1500.00ms, sample_paths=['data/raven/Distribute/sample_003.npz', 'data/raven/Distribute/sample_009.npz', 'data/raven/Distribute/sample_015.npz']
+2026-04-28 19:41:54 | WARNING | 推理超时异常: 2445.42ms > 1500.00ms, sample_paths=['data/raven/Merge/sample_094.npz', 'data/raven/Progresion/sample_005.npz', 'data/raven/Progresion/sample_011.npz']
+2026-04-28 19:41:54 | INFO | random_shift | clean=12.2449% perturbed=4.0816% drop=8.1633%
+2026-04-28 19:41:54 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (gaussian_noise: 14.2857% > 12.2449%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 19:41:54 | WARNING | 结果合理性提示: 扰动后准确率高于扰动前 (color_jitter: 14.2857% > 12.2449%)。可能原因: 样本随机性、模型欠拟合、扰动实现偏弱。
+2026-04-28 19:41:54 | INFO | 鲁棒性报告已保存: experiments/results/robustness_report.txt
+2026-04-28 19:41:55 | INFO | 鲁棒性对比图已保存: experiments/results/robustness_plot.png
+2026-04-28 19:41:55 | INFO | 鲁棒性影响排名（高->低）: ['random_shift:8.16%', 'gaussian_noise:0.00%', 'color_jitter:0.00%']

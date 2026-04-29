@@ -1,0 +1,23 @@
+RAVEN CNN Training Report
+========================
+Training duration (sec): 375.13
+Best validation accuracy: 0.200000
+Best epoch: 2
+Overfitting warnings: 9
+
+LR key nodes: first=0.00100000, last=0.00005765
+
+Loss curve key nodes:
+- first_train_loss: 2.079443
+- best_train_loss: 2.079052
+- last_train_loss: 2.079052
+- first_val_loss: 2.079537
+- best_val_loss: 2.079537
+- last_val_loss: 2.081161
+
+Dataset stats snapshot:
+- total_files: 100
+- valid_samples: 100
+- filtered_samples: 0
+- class_distribution: {0: 13, 1: 13, 2: 13, 3: 13, 4: 12, 5: 12, 6: 12, 7: 12}
+- rule_distribution: {'Center': 17, 'Distribute': 17, 'Merge': 16, 'Outlier': 17, 'Progresion': 16, 'Single': 17}

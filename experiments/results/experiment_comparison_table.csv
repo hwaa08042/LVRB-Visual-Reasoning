@@ -1,0 +1,10 @@
+Experiment,Metric,Value,Note
+Generalization,Seen/ID Accuracy,23.53%,Seen rules or ID rules test set
+Generalization,Unseen/OOD Accuracy,12.24%,Unseen rules or OOD rules test set
+Generalization,Accuracy Drop,11.28%,Seen - Unseen
+Robustness,gaussian_noise Drop,0.00%,"Clean=12.24%, Perturbed=14.29%"
+Robustness,color_jitter Drop,0.00%,"Clean=12.24%, Perturbed=14.29%"
+Robustness,random_shift Drop,8.16%,"Clean=12.24%, Perturbed=4.08%"
+Contrastive,Baseline Accuracy,10.20%,Before contrastive
+Contrastive,Contrastive Accuracy,12.24%,After contrastive
+Contrastive,Improvement,2.04%,Contrastive - Baseline

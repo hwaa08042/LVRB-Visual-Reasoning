@@ -1,0 +1,8 @@
+Data Second Check Report
+========================
+total_npz: 100
+valid_samples: 100
+broken_samples: 0
+class_distribution: {0: 13, 1: 13, 2: 13, 3: 13, 4: 12, 5: 12, 6: 12, 7: 12}
+broken_reasons: {}
+removed_files_count: 0

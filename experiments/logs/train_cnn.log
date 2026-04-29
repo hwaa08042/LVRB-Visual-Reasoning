@@ -1,0 +1,350 @@
+2026-04-28 16:21:24 | INFO | Using device: cpu
+2026-04-28 16:21:26 | INFO | ========== Epoch 1/50 ==========
+2026-04-28 16:21:34 | INFO | step=100001 | loss=2.079444
+2026-04-28 16:21:51 | INFO | step=100002 | loss=2.079460
+2026-04-28 16:22:09 | INFO | step=100003 | loss=2.079435
+2026-04-28 16:22:12 | INFO | Epoch 1 result | train_loss=2.079451 train_acc=0.1286 val_loss=2.079434 val_acc=0.1000
+2026-04-28 16:22:12 | INFO | Weights saved to experiments/weights/cnn_baseline_best.pth
+2026-04-28 16:22:12 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_001.pth
+2026-04-28 16:22:12 | INFO | ========== Epoch 2/50 ==========
+2026-04-28 16:22:20 | INFO | step=200001 | loss=2.079435
+2026-04-28 16:22:37 | INFO | step=200002 | loss=2.079426
+2026-04-28 16:22:49 | INFO | step=200003 | loss=2.079434
+2026-04-28 16:22:52 | INFO | Epoch 2 result | train_loss=2.079430 train_acc=0.1286 val_loss=2.079428 val_acc=0.1000
+2026-04-28 16:22:52 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_002.pth
+2026-04-28 16:22:52 | INFO | ========== Epoch 3/50 ==========
+2026-04-28 16:22:59 | INFO | step=300001 | loss=2.079436
+2026-04-28 16:23:17 | INFO | step=300002 | loss=2.079415
+2026-04-28 16:23:29 | INFO | step=300003 | loss=2.079426
+2026-04-28 16:23:32 | INFO | Epoch 3 result | train_loss=2.079425 train_acc=0.1714 val_loss=2.079427 val_acc=0.1000
+2026-04-28 16:23:32 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_003.pth
+2026-04-28 16:23:32 | INFO | ========== Epoch 4/50 ==========
+2026-04-28 16:23:39 | INFO | step=400001 | loss=2.079437
+2026-04-28 16:23:57 | INFO | step=400002 | loss=2.079406
+2026-04-28 16:24:09 | INFO | step=400003 | loss=2.079370
+2026-04-28 16:24:12 | INFO | Epoch 4 result | train_loss=2.079418 train_acc=0.1857 val_loss=2.079463 val_acc=0.2000
+2026-04-28 16:24:12 | INFO | Weights saved to experiments/weights/cnn_baseline_best.pth
+2026-04-28 16:24:12 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_004.pth
+2026-04-28 16:24:12 | INFO | ========== Epoch 5/50 ==========
+2026-04-28 16:24:19 | INFO | step=500001 | loss=2.079374
+2026-04-28 16:24:36 | INFO | step=500002 | loss=2.079394
+2026-04-28 16:24:48 | INFO | step=500003 | loss=2.079769
+2026-04-28 16:24:51 | INFO | Epoch 5 result | train_loss=2.079417 train_acc=0.1429 val_loss=2.079489 val_acc=0.2000
+2026-04-28 16:24:51 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_005.pth
+2026-04-28 16:24:51 | INFO | ========== Epoch 6/50 ==========
+2026-04-28 16:24:58 | INFO | step=600001 | loss=2.079397
+2026-04-28 16:25:16 | INFO | step=600002 | loss=2.079388
+2026-04-28 16:25:27 | INFO | step=600003 | loss=2.079382
+2026-04-28 16:25:30 | INFO | Epoch 6 result | train_loss=2.079392 train_acc=0.1857 val_loss=2.079491 val_acc=0.1000
+2026-04-28 16:25:30 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00070000（当前模型无 dropout）。
+2026-04-28 16:25:30 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_006.pth
+2026-04-28 16:25:30 | INFO | ========== Epoch 7/50 ==========
+2026-04-28 16:25:37 | INFO | step=700001 | loss=2.079397
+2026-04-28 16:25:55 | INFO | step=700002 | loss=2.079376
+2026-04-28 16:26:06 | INFO | step=700003 | loss=2.079273
+2026-04-28 16:26:09 | INFO | Epoch 7 result | train_loss=2.079377 train_acc=0.1714 val_loss=2.079495 val_acc=0.1000
+2026-04-28 16:26:09 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00049000（当前模型无 dropout）。
+2026-04-28 16:26:09 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_007.pth
+2026-04-28 16:26:09 | INFO | ========== Epoch 8/50 ==========
+2026-04-28 16:26:16 | INFO | step=800001 | loss=2.079444
+2026-04-28 16:26:34 | INFO | step=800002 | loss=2.079317
+2026-04-28 16:26:45 | INFO | step=800003 | loss=2.079076
+2026-04-28 16:26:48 | INFO | Epoch 8 result | train_loss=2.079355 train_acc=0.1857 val_loss=2.079515 val_acc=0.1000
+2026-04-28 16:26:48 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00034300（当前模型无 dropout）。
+2026-04-28 16:26:48 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_008.pth
+2026-04-28 16:26:48 | INFO | ========== Epoch 9/50 ==========
+2026-04-28 16:26:56 | INFO | step=900001 | loss=2.079372
+2026-04-28 16:27:14 | INFO | step=900002 | loss=2.079329
+2026-04-28 16:27:26 | INFO | step=900003 | loss=2.079195
+2026-04-28 16:27:29 | INFO | Epoch 9 result | train_loss=2.079337 train_acc=0.2000 val_loss=2.079529 val_acc=0.1000
+2026-04-28 16:27:29 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00024010（当前模型无 dropout）。
+2026-04-28 16:27:29 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_009.pth
+2026-04-28 16:27:29 | INFO | ========== Epoch 10/50 ==========
+2026-04-28 16:27:36 | INFO | step=1000001 | loss=2.079526
+2026-04-28 16:27:53 | INFO | step=1000002 | loss=2.079135
+2026-04-28 16:28:05 | INFO | step=1000003 | loss=2.079175
+2026-04-28 16:28:08 | INFO | Epoch 10 result | train_loss=2.079317 train_acc=0.2000 val_loss=2.079546 val_acc=0.1000
+2026-04-28 16:28:08 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00016807（当前模型无 dropout）。
+2026-04-28 16:28:08 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_010.pth
+2026-04-28 16:28:08 | INFO | ========== Epoch 11/50 ==========
+2026-04-28 16:28:15 | INFO | step=1100001 | loss=2.079367
+2026-04-28 16:28:32 | INFO | step=1100002 | loss=2.079274
+2026-04-28 16:28:44 | INFO | step=1100003 | loss=2.079093
+2026-04-28 16:28:48 | INFO | Epoch 11 result | train_loss=2.079301 train_acc=0.2000 val_loss=2.079556 val_acc=0.1000
+2026-04-28 16:28:48 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00011765（当前模型无 dropout）。
+2026-04-28 16:28:48 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_011.pth
+2026-04-28 16:28:48 | INFO | ========== Epoch 12/50 ==========
+2026-04-28 16:28:55 | INFO | step=1200001 | loss=2.079136
+2026-04-28 16:29:12 | INFO | step=1200002 | loss=2.079428
+2026-04-28 16:29:23 | INFO | step=1200003 | loss=2.079382
+2026-04-28 16:29:26 | INFO | Epoch 12 result | train_loss=2.079291 train_acc=0.2000 val_loss=2.079566 val_acc=0.1000
+2026-04-28 16:29:26 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00008235（当前模型无 dropout）。
+2026-04-28 16:29:26 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_012.pth
+2026-04-28 16:29:26 | INFO | ========== Epoch 13/50 ==========
+2026-04-28 16:29:33 | INFO | step=1300001 | loss=2.079198
+2026-04-28 16:29:50 | INFO | step=1300002 | loss=2.079382
+2026-04-28 16:30:01 | INFO | step=1300003 | loss=2.079128
+2026-04-28 16:30:04 | INFO | Epoch 13 result | train_loss=2.079276 train_acc=0.2000 val_loss=2.079569 val_acc=0.1000
+2026-04-28 16:30:04 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00005765（当前模型无 dropout）。
+2026-04-28 16:30:04 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_013.pth
+2026-04-28 16:30:04 | INFO | ========== Epoch 14/50 ==========
+2026-04-28 16:30:11 | INFO | step=1400001 | loss=2.079365
+2026-04-28 16:30:28 | INFO | step=1400002 | loss=2.079109
+2026-04-28 16:30:39 | INFO | step=1400003 | loss=2.079624
+2026-04-28 16:30:42 | INFO | Epoch 14 result | train_loss=2.079270 train_acc=0.2000 val_loss=2.079572 val_acc=0.1000
+2026-04-28 16:30:42 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00004035（当前模型无 dropout）。
+2026-04-28 16:30:42 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_014.pth
+2026-04-28 16:30:42 | INFO | ========== Epoch 15/50 ==========
+2026-04-28 16:30:49 | INFO | step=1500001 | loss=2.079382
+2026-04-28 16:31:05 | INFO | step=1500002 | loss=2.079117
+2026-04-28 16:31:17 | INFO | step=1500003 | loss=2.079416
+2026-04-28 16:31:20 | INFO | Epoch 15 result | train_loss=2.079264 train_acc=0.2000 val_loss=2.079573 val_acc=0.1000
+2026-04-28 16:31:20 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00002825（当前模型无 dropout）。
+2026-04-28 16:31:20 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_015.pth
+2026-04-28 16:31:20 | INFO | ========== Epoch 16/50 ==========
+2026-04-28 16:31:27 | INFO | step=1600001 | loss=2.079358
+2026-04-28 16:31:44 | INFO | step=1600002 | loss=2.079143
+2026-04-28 16:31:57 | INFO | step=1600003 | loss=2.079360
+2026-04-28 16:32:00 | INFO | Epoch 16 result | train_loss=2.079260 train_acc=0.2000 val_loss=2.079574 val_acc=0.1000
+2026-04-28 16:32:00 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00001977（当前模型无 dropout）。
+2026-04-28 16:32:00 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_016.pth
+2026-04-28 16:32:00 | INFO | ========== Epoch 17/50 ==========
+2026-04-28 16:32:08 | INFO | step=1700001 | loss=2.079304
+2026-04-28 16:32:25 | INFO | step=1700002 | loss=2.079262
+2026-04-28 16:32:36 | INFO | step=1700003 | loss=2.078972
+2026-04-28 16:32:39 | INFO | Epoch 17 result | train_loss=2.079257 train_acc=0.2000 val_loss=2.079575 val_acc=0.1000
+2026-04-28 16:32:39 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00001384（当前模型无 dropout）。
+2026-04-28 16:32:39 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_017.pth
+2026-04-28 16:32:39 | INFO | ========== Epoch 18/50 ==========
+2026-04-28 16:32:46 | INFO | step=1800001 | loss=2.079385
+2026-04-28 16:33:03 | INFO | step=1800002 | loss=2.079205
+2026-04-28 16:33:15 | INFO | step=1800003 | loss=2.078828
+2026-04-28 16:33:18 | INFO | Epoch 18 result | train_loss=2.079255 train_acc=0.2000 val_loss=2.079575 val_acc=0.1000
+2026-04-28 16:33:18 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000969（当前模型无 dropout）。
+2026-04-28 16:33:18 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_018.pth
+2026-04-28 16:33:18 | INFO | ========== Epoch 19/50 ==========
+2026-04-28 16:33:25 | INFO | step=1900001 | loss=2.079245
+2026-04-28 16:33:42 | INFO | step=1900002 | loss=2.079267
+2026-04-28 16:33:53 | INFO | step=1900003 | loss=2.079216
+2026-04-28 16:33:56 | INFO | Epoch 19 result | train_loss=2.079253 train_acc=0.2000 val_loss=2.079576 val_acc=0.1000
+2026-04-28 16:33:56 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000678（当前模型无 dropout）。
+2026-04-28 16:33:56 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_019.pth
+2026-04-28 16:33:56 | INFO | ========== Epoch 20/50 ==========
+2026-04-28 16:34:04 | INFO | step=2000001 | loss=2.079324
+2026-04-28 16:34:21 | INFO | step=2000002 | loss=2.079278
+2026-04-28 16:34:33 | INFO | step=2000003 | loss=2.078726
+2026-04-28 16:34:36 | INFO | Epoch 20 result | train_loss=2.079251 train_acc=0.2000 val_loss=2.079576 val_acc=0.1000
+2026-04-28 16:34:36 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000475（当前模型无 dropout）。
+2026-04-28 16:34:36 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_020.pth
+2026-04-28 16:34:36 | INFO | ========== Epoch 21/50 ==========
+2026-04-28 16:34:43 | INFO | step=2100001 | loss=2.079320
+2026-04-28 16:35:00 | INFO | step=2100002 | loss=2.079266
+2026-04-28 16:35:12 | INFO | step=2100003 | loss=2.078797
+2026-04-28 16:35:16 | INFO | Epoch 21 result | train_loss=2.079251 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:35:16 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000332（当前模型无 dropout）。
+2026-04-28 16:35:16 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_021.pth
+2026-04-28 16:35:16 | INFO | ========== Epoch 22/50 ==========
+2026-04-28 16:35:23 | INFO | step=2200001 | loss=2.079026
+2026-04-28 16:35:39 | INFO | step=2200002 | loss=2.079371
+2026-04-28 16:35:50 | INFO | step=2200003 | loss=2.079798
+2026-04-28 16:35:53 | INFO | Epoch 22 result | train_loss=2.079250 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:35:53 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000233（当前模型无 dropout）。
+2026-04-28 16:35:53 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_022.pth
+2026-04-28 16:35:53 | INFO | ========== Epoch 23/50 ==========
+2026-04-28 16:36:00 | INFO | step=2300001 | loss=2.079216
+2026-04-28 16:36:18 | INFO | step=2300002 | loss=2.079203
+2026-04-28 16:36:29 | INFO | step=2300003 | loss=2.079677
+2026-04-28 16:36:31 | INFO | Epoch 23 result | train_loss=2.079250 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:36:31 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000163（当前模型无 dropout）。
+2026-04-28 16:36:31 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_023.pth
+2026-04-28 16:36:31 | INFO | ========== Epoch 24/50 ==========
+2026-04-28 16:36:38 | INFO | step=2400001 | loss=2.079268
+2026-04-28 16:36:55 | INFO | step=2400002 | loss=2.079254
+2026-04-28 16:37:06 | INFO | step=2400003 | loss=2.079121
+2026-04-28 16:37:09 | INFO | Epoch 24 result | train_loss=2.079249 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:37:09 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000114（当前模型无 dropout）。
+2026-04-28 16:37:09 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_024.pth
+2026-04-28 16:37:09 | INFO | ========== Epoch 25/50 ==========
+2026-04-28 16:37:16 | INFO | step=2500001 | loss=2.079338
+2026-04-28 16:37:37 | INFO | step=2500002 | loss=2.079169
+2026-04-28 16:37:54 | INFO | step=2500003 | loss=2.079198
+2026-04-28 16:37:58 | INFO | Epoch 25 result | train_loss=2.079249 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:37:58 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:37:58 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_025.pth
+2026-04-28 16:37:58 | INFO | ========== Epoch 26/50 ==========
+2026-04-28 16:38:05 | INFO | step=2600001 | loss=2.079380
+2026-04-28 16:38:24 | INFO | step=2600002 | loss=2.079067
+2026-04-28 16:38:35 | INFO | step=2600003 | loss=2.079520
+2026-04-28 16:38:38 | INFO | Epoch 26 result | train_loss=2.079249 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:38:38 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:38:38 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_026.pth
+2026-04-28 16:38:38 | INFO | ========== Epoch 27/50 ==========
+2026-04-28 16:38:45 | INFO | step=2700001 | loss=2.078933
+2026-04-28 16:39:03 | INFO | step=2700002 | loss=2.079533
+2026-04-28 16:39:15 | INFO | step=2700003 | loss=2.079418
+2026-04-28 16:39:18 | INFO | Epoch 27 result | train_loss=2.079249 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:39:18 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:39:18 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_027.pth
+2026-04-28 16:39:18 | INFO | ========== Epoch 28/50 ==========
+2026-04-28 16:39:26 | INFO | step=2800001 | loss=2.079098
+2026-04-28 16:39:44 | INFO | step=2800002 | loss=2.079344
+2026-04-28 16:39:58 | INFO | step=2800003 | loss=2.079542
+2026-04-28 16:40:01 | INFO | Epoch 28 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:40:01 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:40:01 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_028.pth
+2026-04-28 16:40:01 | INFO | ========== Epoch 29/50 ==========
+2026-04-28 16:40:10 | INFO | step=2900001 | loss=2.079140
+2026-04-28 16:40:28 | INFO | step=2900002 | loss=2.079406
+2026-04-28 16:40:40 | INFO | step=2900003 | loss=2.078989
+2026-04-28 16:40:42 | INFO | Epoch 29 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:40:42 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:40:42 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_029.pth
+2026-04-28 16:40:42 | INFO | ========== Epoch 30/50 ==========
+2026-04-28 16:40:49 | INFO | step=3000001 | loss=2.079105
+2026-04-28 16:41:06 | INFO | step=3000002 | loss=2.079367
+2026-04-28 16:41:17 | INFO | step=3000003 | loss=2.079384
+2026-04-28 16:41:19 | INFO | Epoch 30 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:41:19 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:41:19 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_030.pth
+2026-04-28 16:41:19 | INFO | ========== Epoch 31/50 ==========
+2026-04-28 16:41:26 | INFO | step=3100001 | loss=2.079213
+2026-04-28 16:41:43 | INFO | step=3100002 | loss=2.079247
+2026-04-28 16:41:53 | INFO | step=3100003 | loss=2.079445
+2026-04-28 16:41:56 | INFO | Epoch 31 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:41:56 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_031.pth
+2026-04-28 16:41:56 | INFO | ========== Epoch 32/50 ==========
+2026-04-28 16:42:03 | INFO | step=3200001 | loss=2.079282
+2026-04-28 16:42:19 | INFO | step=3200002 | loss=2.079386
+2026-04-28 16:42:29 | INFO | step=3200003 | loss=2.078334
+2026-04-28 16:42:32 | INFO | Epoch 32 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:42:32 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_032.pth
+2026-04-28 16:42:32 | INFO | ========== Epoch 33/50 ==========
+2026-04-28 16:42:39 | INFO | step=3300001 | loss=2.079395
+2026-04-28 16:42:55 | INFO | step=3300002 | loss=2.079190
+2026-04-28 16:43:06 | INFO | step=3300003 | loss=2.078776
+2026-04-28 16:43:09 | INFO | Epoch 33 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079577 val_acc=0.1000
+2026-04-28 16:43:09 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:43:09 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_033.pth
+2026-04-28 16:43:09 | INFO | ========== Epoch 34/50 ==========
+2026-04-28 16:43:16 | INFO | step=3400001 | loss=2.079150
+2026-04-28 16:43:34 | INFO | step=3400002 | loss=2.079442
+2026-04-28 16:43:45 | INFO | step=3400003 | loss=2.078736
+2026-04-28 16:43:48 | INFO | Epoch 34 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:43:48 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:43:48 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_034.pth
+2026-04-28 16:43:48 | INFO | ========== Epoch 35/50 ==========
+2026-04-28 16:43:55 | INFO | step=3500001 | loss=2.079090
+2026-04-28 16:44:12 | INFO | step=3500002 | loss=2.079326
+2026-04-28 16:44:23 | INFO | step=3500003 | loss=2.079672
+2026-04-28 16:44:26 | INFO | Epoch 35 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:44:26 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:44:26 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_035.pth
+2026-04-28 16:44:26 | INFO | ========== Epoch 36/50 ==========
+2026-04-28 16:44:33 | INFO | step=3600001 | loss=2.079208
+2026-04-28 16:44:50 | INFO | step=3600002 | loss=2.079279
+2026-04-28 16:45:00 | INFO | step=3600003 | loss=2.079294
+2026-04-28 16:45:03 | INFO | Epoch 36 result | train_loss=2.079248 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:45:03 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:45:03 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_036.pth
+2026-04-28 16:45:03 | INFO | ========== Epoch 37/50 ==========
+2026-04-28 16:45:10 | INFO | step=3700001 | loss=2.079311
+2026-04-28 16:45:27 | INFO | step=3700002 | loss=2.079166
+2026-04-28 16:45:37 | INFO | step=3700003 | loss=2.079341
+2026-04-28 16:45:40 | INFO | Epoch 37 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:45:40 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:45:40 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_037.pth
+2026-04-28 16:45:40 | INFO | ========== Epoch 38/50 ==========
+2026-04-28 16:45:47 | INFO | step=3800001 | loss=2.079365
+2026-04-28 16:46:03 | INFO | step=3800002 | loss=2.079172
+2026-04-28 16:46:13 | INFO | step=3800003 | loss=2.079021
+2026-04-28 16:46:17 | INFO | Epoch 38 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:46:17 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:46:17 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_038.pth
+2026-04-28 16:46:17 | INFO | ========== Epoch 39/50 ==========
+2026-04-28 16:46:24 | INFO | step=3900001 | loss=2.079446
+2026-04-28 16:46:41 | INFO | step=3900002 | loss=2.079155
+2026-04-28 16:46:52 | INFO | step=3900003 | loss=2.078678
+2026-04-28 16:46:55 | INFO | Epoch 39 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:46:55 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:46:55 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_039.pth
+2026-04-28 16:46:55 | INFO | ========== Epoch 40/50 ==========
+2026-04-28 16:47:02 | INFO | step=4000001 | loss=2.079186
+2026-04-28 16:47:19 | INFO | step=4000002 | loss=2.079317
+2026-04-28 16:47:30 | INFO | step=4000003 | loss=2.079196
+2026-04-28 16:47:33 | INFO | Epoch 40 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:47:33 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:47:33 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_040.pth
+2026-04-28 16:47:33 | INFO | ========== Epoch 41/50 ==========
+2026-04-28 16:47:40 | INFO | step=4100001 | loss=2.079341
+2026-04-28 16:47:56 | INFO | step=4100002 | loss=2.079245
+2026-04-28 16:48:08 | INFO | step=4100003 | loss=2.078755
+2026-04-28 16:48:11 | INFO | Epoch 41 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:48:11 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:48:11 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_041.pth
+2026-04-28 16:48:11 | INFO | ========== Epoch 42/50 ==========
+2026-04-28 16:48:18 | INFO | step=4200001 | loss=2.079206
+2026-04-28 16:48:35 | INFO | step=4200002 | loss=2.079372
+2026-04-28 16:48:47 | INFO | step=4200003 | loss=2.078799
+2026-04-28 16:48:49 | INFO | Epoch 42 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:48:49 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:48:49 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_042.pth
+2026-04-28 16:48:49 | INFO | ========== Epoch 43/50 ==========
+2026-04-28 16:48:56 | INFO | step=4300001 | loss=2.079291
+2026-04-28 16:49:13 | INFO | step=4300002 | loss=2.079368
+2026-04-28 16:49:23 | INFO | step=4300003 | loss=2.078361
+2026-04-28 16:49:26 | INFO | Epoch 43 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:49:26 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:49:26 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_043.pth
+2026-04-28 16:49:26 | INFO | ========== Epoch 44/50 ==========
+2026-04-28 16:49:33 | INFO | step=4400001 | loss=2.079389
+2026-04-28 16:49:50 | INFO | step=4400002 | loss=2.079048
+2026-04-28 16:50:01 | INFO | step=4400003 | loss=2.079545
+2026-04-28 16:50:04 | INFO | Epoch 44 result | train_loss=2.079247 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:50:04 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:50:04 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_044.pth
+2026-04-28 16:50:04 | INFO | ========== Epoch 45/50 ==========
+2026-04-28 16:50:11 | INFO | step=4500001 | loss=2.079233
+2026-04-28 16:50:27 | INFO | step=4500002 | loss=2.079231
+2026-04-28 16:50:38 | INFO | step=4500003 | loss=2.079402
+2026-04-28 16:50:41 | INFO | Epoch 45 result | train_loss=2.079246 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:50:41 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:50:41 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_045.pth
+2026-04-28 16:50:41 | INFO | ========== Epoch 46/50 ==========
+2026-04-28 16:50:49 | INFO | step=4600001 | loss=2.079120
+2026-04-28 16:51:05 | INFO | step=4600002 | loss=2.079402
+2026-04-28 16:51:17 | INFO | step=4600003 | loss=2.079090
+2026-04-28 16:51:20 | INFO | Epoch 46 result | train_loss=2.079246 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:51:20 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:51:20 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_046.pth
+2026-04-28 16:51:20 | INFO | ========== Epoch 47/50 ==========
+2026-04-28 16:51:27 | INFO | step=4700001 | loss=2.079160
+2026-04-28 16:51:44 | INFO | step=4700002 | loss=2.079390
+2026-04-28 16:51:55 | INFO | step=4700003 | loss=2.078937
+2026-04-28 16:51:58 | INFO | Epoch 47 result | train_loss=2.079246 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:51:58 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_047.pth
+2026-04-28 16:51:58 | INFO | ========== Epoch 48/50 ==========
+2026-04-28 16:52:05 | INFO | step=4800001 | loss=2.079347
+2026-04-28 16:52:23 | INFO | step=4800002 | loss=2.079156
+2026-04-28 16:52:34 | INFO | step=4800003 | loss=2.079183
+2026-04-28 16:52:37 | INFO | Epoch 48 result | train_loss=2.079246 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:52:37 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_048.pth
+2026-04-28 16:52:37 | INFO | ========== Epoch 49/50 ==========
+2026-04-28 16:52:44 | INFO | step=4900001 | loss=2.079369
+2026-04-28 16:53:00 | INFO | step=4900002 | loss=2.079127
+2026-04-28 16:53:11 | INFO | step=4900003 | loss=2.079228
+2026-04-28 16:53:13 | INFO | Epoch 49 result | train_loss=2.079246 train_acc=0.2000 val_loss=2.079579 val_acc=0.1000
+2026-04-28 16:53:13 | WARNING | 过拟合警告: 连续 3 个 epochs 验证准确率不提升且 loss 不下降。已自动降低学习率至 0.00000100（当前模型无 dropout）。
+2026-04-28 16:53:13 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_049.pth
+2026-04-28 16:53:13 | INFO | ========== Epoch 50/50 ==========
+2026-04-28 16:53:21 | INFO | step=5000001 | loss=2.079098
+2026-04-28 16:53:38 | INFO | step=5000002 | loss=2.079351
+2026-04-28 16:53:49 | INFO | step=5000003 | loss=2.079469
+2026-04-28 16:53:51 | INFO | Epoch 50 result | train_loss=2.079246 train_acc=0.2000 val_loss=2.079578 val_acc=0.1000
+2026-04-28 16:53:51 | INFO | Weights saved to experiments/weights/cnn_baseline_epoch_050.pth
+2026-04-28 16:53:51 | INFO | Weights saved to experiments/weights/cnn_baseline_last.pth
+2026-04-28 16:53:51 | INFO | Training report saved to experiments/results/train_report.txt
+2026-04-28 16:53:51 | INFO | Training finished in 1945.70 seconds
+2026-04-28 16:53:51 | INFO | Weights loaded from experiments/weights/cnn_baseline_best.pth | strict=True
+2026-04-28 16:53:52 | INFO | Checkpoint verification passed: experiments/weights/cnn_baseline_best.pth
+2026-04-28 16:53:52 | INFO | Weights loaded from experiments/weights/cnn_baseline_last.pth | strict=True
+2026-04-28 16:53:52 | INFO | Checkpoint verification passed: experiments/weights/cnn_baseline_last.pth

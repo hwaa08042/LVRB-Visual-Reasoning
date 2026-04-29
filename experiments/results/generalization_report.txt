@@ -1,0 +1,23 @@
+RAVEN OOD Generalization Report
+===============================
+ID rules: ['Center', 'Single', 'Outlier']
+OOD rules: ['Distribute', 'Merge', 'Progresion']
+ID test size: 51
+OOD test size: 49
+ID accuracy: 23.5294%
+OOD accuracy: 12.2449%
+Absolute drop (ID - OOD): 11.2845%
+Relative drop: 47.9592%
+
+Inference speed:
+- id avg batch time: 6129.0775 ms
+- ood avg batch time: 5611.0499 ms
+- id avg sample time: 191.5337 ms
+- ood avg sample time: 175.3453 ms
+
+Anomaly statistics:
+- total anomalies: 4
+- by reason: {'slow_inference': 4}
+
+Reasonability checks:
+- 结果范围校验通过。

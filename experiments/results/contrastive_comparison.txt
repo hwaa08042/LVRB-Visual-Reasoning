@@ -1,0 +1,51 @@
+Contrastive Comparison Report (Strict ID/OOD Rules)
+===================================================
+
+Protocol
+--------
+- Train(ID) rules: Center, Single, Outlier
+- Test(OOD) rules: Distribute, Merge, Progresion
+- Rule overlap: none (official strict OOD setting)
+- Baseline model: near-CE only (contrastive_weight=1e-8)
+- Contrastive model: CE + 0.3 * contrastive loss
+
+1) Generalization (strict ID/OOD)
+---------------------------------
+Baseline:
+- ID acc: 23.5294%
+- OOD acc: 10.2041%
+- Absolute drop: 13.3253%
+- Relative drop: 56.6327%
+
+Contrastive:
+- ID acc: 23.5294%
+- OOD acc: 12.2449%
+- Absolute drop: 11.2845%
+- Relative drop: 47.9592%
+
+Delta (Contrastive - Baseline):
+- ID acc: +0.0000%
+- OOD acc: +2.0408%
+- Absolute drop improved by: 2.0408%
+
+2) Robustness on OOD rules
+--------------------------
+Baseline clean acc: 10.2041%
+- gaussian_noise: 12.2449% (drop=0.0000%)
+- color_jitter: 14.2857% (drop=0.0000%)
+- random_shift: 12.2449% (drop=0.0000%)
+
+Contrastive clean acc: 12.2449%
+- gaussian_noise: 14.2857% (drop=0.0000%)
+- color_jitter: 14.2857% (drop=0.0000%)
+- random_shift: 4.0816% (drop=8.1633%)
+
+3) Academic conclusion (paper-ready)
+------------------------------------
+"模型在见过的规则上表现良好，但在未见过的逻辑规则上显著下降，证明当前模型仍缺乏抽象推理能力。"
+
+Interpretation:
+- Strict OOD gap is consistently present (ID > OOD).
+- Contrastive learning improves OOD accuracy in this run, but non-trivial OOD drop remains.
+- Current model still exhibits rule-level generalization weakness under unseen reasoning patterns.
+

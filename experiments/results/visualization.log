@@ -1,0 +1,26 @@
+2026-04-28 16:04:17 | WARNING | 结果文件缺失，已跳过: experiments/results/generalization_report.txt
+2026-04-28 16:04:17 | WARNING | 结果文件缺失，已跳过: experiments/results/robustness_report.txt
+2026-04-28 16:04:17 | WARNING | 结果文件缺失，已跳过: experiments/results/contrastive_report.txt
+2026-04-28 16:04:17 | WARNING | 结果文件缺失，已跳过: experiments/results/contrastive_train_report.txt
+2026-04-28 16:04:17 | WARNING | 结果文件缺失，已跳过: experiments/results/train_report.txt
+2026-04-28 16:04:17 | WARNING | 结果文件缺失，已跳过: experiments/results/baseline_train_report.txt
+2026-04-28 16:04:17 | INFO | 实验对比表已保存: experiments/results/experiment_comparison_table.csv, experiments/results/experiment_comparison_table.md
+2026-04-28 16:04:17 | WARNING | 无可用数据，跳过柱状图绘制。
+2026-04-28 16:04:17 | WARNING | 无鲁棒性数据，跳过折线图绘制。
+2026-04-28 16:04:17 | INFO | 可视化图表输出完成: experiments/results/experiment_comparison_bar.png, experiments/results/experiment_comparison_line.png
+2026-04-28 16:04:17 | INFO | 可视化报告已保存: experiments/results/visualization_report.txt
+2026-04-28 16:04:17 | INFO | 可视化校验通过，未发现明显一致性异常。
+2026-04-28 19:51:03 | WARNING | 结果文件缺失，已跳过: experiments/results/contrastive_report.txt
+2026-04-28 19:51:03 | WARNING | 结果文件缺失，已跳过: experiments/results/contrastive_train_report.txt
+2026-04-28 19:51:03 | INFO | 实验对比表已保存: experiments/results/experiment_comparison_table.csv, experiments/results/experiment_comparison_table.md
+2026-04-28 19:51:04 | INFO | 可视化图表输出完成: experiments/results/experiment_comparison_bar.png, experiments/results/experiment_comparison_line.png
+2026-04-28 19:51:04 | INFO | 可视化报告已保存: experiments/results/visualization_report.txt
+2026-04-28 19:51:04 | WARNING | 检测到 2 条可视化/数据一致性告警。详见 visualization_report.txt
+2026-04-28 19:51:32 | INFO | 实验对比表已保存: experiments/results/experiment_comparison_table.csv, experiments/results/experiment_comparison_table.md
+2026-04-28 19:51:32 | INFO | 可视化图表输出完成: experiments/results/experiment_comparison_bar.png, experiments/results/experiment_comparison_line.png
+2026-04-28 19:51:32 | INFO | 可视化报告已保存: experiments/results/visualization_report.txt
+2026-04-28 19:51:32 | INFO | 可视化校验通过，未发现明显一致性异常。
+2026-04-28 19:51:45 | INFO | 实验对比表已保存: experiments/results/experiment_comparison_table.csv, experiments/results/experiment_comparison_table.md
+2026-04-28 19:51:46 | INFO | 可视化图表输出完成: experiments/results/experiment_comparison_bar.png, experiments/results/experiment_comparison_line.png
+2026-04-28 19:51:46 | INFO | 可视化报告已保存: experiments/results/visualization_report.txt
+2026-04-28 19:51:46 | INFO | 可视化校验通过，未发现明显一致性异常。

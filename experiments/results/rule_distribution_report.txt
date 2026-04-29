@@ -1,0 +1,9 @@
+RAVEN Rule Distribution Report
+==============================
+Train rules: ['Center', 'Single', 'Outlier']
+OOD test rules: ['Distribute', 'Merge', 'Progresion']
+Rule overlap: []
+
+Total valid samples: 100
+Train-rule sample counts: {'Center': 17, 'Outlier': 17, 'Single': 17}
+OOD-rule sample counts: {'Distribute': 17, 'Merge': 16, 'Progresion': 16}

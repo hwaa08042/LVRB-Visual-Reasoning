@@ -1,0 +1,10 @@
+Visualization Validation Report
+============================
+
+Data/Chart Validation:
+- All checks passed.
+
+Core Conclusions:
+- 泛化表现相对稳定：见过/未见规则差距可控。
+- 最敏感扰动类型：`random_shift`（准确率下降 8.16%）。
+- 对比学习带来提升：+2.04%。

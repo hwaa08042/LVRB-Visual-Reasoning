@@ -1,0 +1,27 @@
+RAVEN Robustness Test Report
+===========================
+Perturbation: gaussian_noise
+Parameters: {'noise_std': 0.1}
+Clean accuracy: 10.2041%
+Perturbed accuracy: 12.2449%
+Accuracy drop: 0.0000%
+Anomaly samples: 98
+
+Perturbation: color_jitter
+Parameters: {'jitter_strength': 0.2}
+Clean accuracy: 10.2041%
+Perturbed accuracy: 14.2857%
+Accuracy drop: 0.0000%
+Anomaly samples: 98
+
+Perturbation: random_shift
+Parameters: {'shift_ratio': 0.1}
+Clean accuracy: 10.2041%
+Perturbed accuracy: 12.2449%
+Accuracy drop: 0.0000%
+Anomaly samples: 98
+
+Robustness ranking (worst -> best):
+1. gaussian_noise | drop=0.0000%
+2. color_jitter | drop=0.0000%
+3. random_shift | drop=0.0000%
